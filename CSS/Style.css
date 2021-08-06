@@ -1,0 +1,344 @@
+
+header{
+    background-color: #ffc3ad;
+    
+}
+.inline-block{
+    display: inline-block;  
+}
+.logo{
+    display: inline-block;
+    width: 60px;
+    padding-top: 15px;
+}
+
+nav{
+    margin-top: 10px;
+    float: right;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+a:hover{
+    background-color: #ffd500;
+}
+
+
+a{
+    color: #ffffff;
+text-decoration-line: none;
+   padding: 15px 15px 15px 15px;
+}
+.heroimg{
+    margin-right: 10px;
+    width: 70%;
+    float: right;    
+    height:700px;
+    background-image:url("https://images.unsplash.com/photo-1601913463731-cfba9fd31ed3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80");
+    background-size: cover;
+    background-position: center;
+}
+.content{
+    margin-left: 10px;
+    background-color: #ffd500;
+    width: 30%;
+    height: 700px;
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+
+h1{
+    font-family: roboto, sans-serif;
+    padding-top: 200px;
+    font-weight: bold;
+}
+
+h2{
+    font-family: 'Style Script', cursive;
+    font-size: 25px;
+    
+    font-weight: 500;
+    line-height: 30px;
+}
+
+p{
+    font-family: Georgia, 'Roboto', Times, serif;
+    line-height: 30px;
+    align-content: center;
+    
+}
+button{
+    background-color: #ffd500;
+    border-width: 3px;
+    border-color: #000000;
+border-radius: 5px;
+    padding:10px 30px 10px 30px;
+    font-weight: bold;  
+
+}
+
+button:hover
+{
+    background-color: none;
+    border-color:  #bf5748;
+    color:#bf5748;
+    box-shadow: 1em 1em 1em -.4em #bf5748;
+    transform: translateY(-.25em);
+    transition:.3s;
+    
+}
+
+#container1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 20px;
+}
+
+.work1{
+     margin-left: -10px;
+background-image: url("/Users/divyachakravarthy/Desktop/UX_UI_HW_17/Images/Binge Buddies.png");
+flex-basis: 50%;
+height: 400px;
+background-size: cover;
+}
+
+.content1{
+    
+    text-align: center;
+    background-color: #ffd500;
+  flex-basis: 48.5%;
+height: 400px;
+
+}
+.content1 h1{
+    align-content: center;
+    padding-top: 10px;
+
+}
+.content1 p{
+    width: 95%;
+    padding-left: 15px;
+}
+
+#container2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 20px;
+}
+
+.work2{
+     margin-left: -10px;
+background-image: url("/Users/divyachakravarthy/Desktop/UX_UI_HW_17/Images/CSA.png");
+flex-basis: 50%;
+height: 400px;
+background-size: cover;
+}
+
+.content2{
+    
+    text-align: center;
+    background-color: #ffd500;
+  flex-basis: 48.5%;
+height: 400px;
+
+}
+.content2 h1{
+    align-content: center;
+    padding-top: 10px;
+
+}
+.content2 p{
+    width: 95%;
+    padding-left: 15px;
+}
+
+#container3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 20px;
+}
+
+.work3{
+     margin-left: -10px;
+background-image: url("/Users/divyachakravarthy/Desktop/UX_UI_HW_17/Images/Trip.png");
+flex-basis: 50%;
+height: 400px;
+background-size: cover;
+}
+
+.content3{
+    
+    text-align: center;
+    background-color: #ffd500;
+  flex-basis: 48.5%;
+height: 400px;
+
+}
+.content3 h1{
+    align-content: center;
+    padding-top: 10px;
+
+}
+.content3 p{
+    width: 95%;
+    padding-left: 15px;
+}
+
+.myskills {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  column-gap: 10px;
+  margin-top: 20px;
+  vertical-align: text-top;
+}
+
+
+
+#marketing {
+
+    background-image: url("/Users/divyachakravarthy/Desktop/UX_UI_HW_17/Images/Marketing.png");
+margin-left: 10px;
+    grid-column: 1 ;
+  grid-row: 1;
+  background-color: #ffd500;
+  text-align: center;
+  padding-bottom: 10px;
+  background-size: 400px;
+  background-position: center ;
+    
+}
+#design {
+      background-image: url("/Users/divyachakravarthy/Desktop/UX_UI_HW_17/Images/Design.png");
+    grid-column: 2 ;
+  grid-row: 1;
+  background-color: #ffd500;
+  text-align: center;
+  padding-bottom: 10px;
+  background-size: 400px;
+  background-position: center ;
+}
+#coding {
+    background-image: url("/Users/divyachakravarthy/Desktop/UX_UI_HW_17/Images/Front End.png");
+    margin-right: 8px;
+    grid-column: 3 ;
+  grid-row: 1;
+  background-color: #ffd500;
+  text-align: center;
+  padding-bottom: 10px;
+  background-size: 400px;
+  background-position: center ;
+}
+
+h3{
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 250px;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+h4{
+    text-align: center;
+    font-family: roboto, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+.post-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(100px, 293px));
+  justify-content: center;
+  grid-gap: 5px;
+}
+.post {
+  cursor: pointer;
+  position: relative;
+  display: block;
+}
+.post-image {
+  margin: 0;
+}
+.post-image img {
+  width: 100%;
+  vertical-align: top;
+}
+.post-overlay {
+  background:rgba(236, 38, 203, 0.4);
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+.post:hover .post-overlay{
+			display: flex;
+}
+
+.post-like,
+.post-comments {
+  width: 80px;
+  margin: 5px;
+  font-weight: bold;
+  text-align: center;
+  display: inline-block;
+}
+
+@media screen and (max-width: 768px) {
+  .post-list {
+    grid-gap: 3px;
+  }
+}
+
+
+footer{
+    height: 80px;
+    display: inline-block;
+ background-color: #ffc3ad;  
+ 
+ width: 100%;
+}
+.active{
+    position: relative;
+    top:  10px;
+    display: inline; 
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    padding: 40px 15px 15px 15px;
+    margin-top: auto;
+}
+
+.social{
+    position: relative;
+    bottom: 35px;
+    width: 30px;
+padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: right;
+    margin: auto;
+}
+
+
+img.social:hover
+{
+ width: 35px;
+transform: translateY(-.50em);
+}
