@@ -31,6 +31,25 @@ a{
 text-decoration-line: none;
    padding: 15px 15px 15px 15px;
 }
+
+.heroimg{
+    margin-right: 10px;
+    width: 200px
+    float: right;    
+    background-image:url("https://images.unsplash.com/photo-1601913463731-cfba9fd31ed3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80");
+    background-position: center;
+}
+.content{
+    margin-left: 10px;
+    background-color: #ffd500;
+    width: 100%;
+    height: 200px;
+    
+
+}
+
+
+
 .heroimg{
     margin-right: 10px;
     width: 70%;
@@ -89,6 +108,70 @@ button:hover
     transform: translateY(-.25em);
     transition:.3s;
     
+}
+
+@media only screen and (max-width: 768px)
+{
+heroimg{
+    margin-right: 10px;
+    width: 538;
+    float: right;    
+    height:700px;
+    background-image:url("https://images.unsplash.com/photo-1601913463731-cfba9fd31ed3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80");
+    background-size: cover;
+    background-position: center;
+}
+.content{
+    margin-left: 10px;
+    background-color: #ffd500;
+    width: 230;
+    display: block;
+    height: 700px;
+    align-items: center;
+    text-align: center;
+}
+
+.content h1{
+    font-family: roboto, sans-serif;
+    font-size: smaller;
+    padding-top: 200px;
+    font-weight: bold;
+}
+
+.content h2{
+    font-family: 'Style Script', cursive;
+    font-size: 20px;
+    
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.content p{
+    font-family: Georgia, 'Roboto', Times, serif;
+    line-height: 14px;
+    align-content: center;
+    font-size: 12px;
+    
+}
+button{
+    background-color: #ffd500;
+    border-width: 3px;
+    border-color: #000000;
+border-radius: 5px;
+    padding:10px 10px 10px 10px;
+    font-weight: 100;  
+
+}
+
+}
+
+@media only screen and (max-width: 1200px) {
+  .header {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1em;
+    grid-row-gap: none;
+  }
 }
 
 #container1 {
@@ -330,52 +413,52 @@ h3{
     bottom: 65px;
 }
 
-@media only screen and (max-width: 1450px) {
+
+@media only screen and (max-width: 1700px) {
    #marketing{
-    height: 400px;
+    height: 450px;
   }
   #marketing p{
     position: relative;
-    bottom: 40px;
+    bottom: 10px;
 }
 
 #marketing button{
     position: relative;
-    bottom: 45px;
-}
-  
+    bottom: 10px;
 }
 
-@media only screen and (max-width: 1450px) {
-   #design{
-    height: 400px;
+    #design{
+    height: 450px;
   }
   #design p{
     position: relative;
-    bottom: 40px;
+    bottom: 10px;
 }
 
 #design button{
     position: relative;
-    bottom: 45px;
-}
-  
+    bottom: 10px;
 }
 
-@media only screen and (max-width: 1450px) {
-   #coding{
-    height: 400px;
+#coding {
+    height: 450px;
   }
   #coding p{
     position: relative;
-    bottom: 40px;
+    bottom: 10px;
 }
 
 #coding button{
     position: relative;
-    bottom: 45px;
+    bottom: 20px;
 }
-  }
+  
+  
+}
+
+@media only screen and (max-width: 1700px) {
+   
 
 h4{
     text-align: center;
